@@ -58,15 +58,15 @@ python -m onnxsim best.onnx best_sim.onnx
 
 ### 结果可视化
 #### 1. Accuracy曲线
-![acc.png](..%2F..%2FTool1%2Facc.png)
+![acc.png](output_dir%2Facc.png)
 #### 2. Loss曲线
-![loss.png](..%2F..%2FTool1%2Floss.png)
+![loss.png](output_dir%2Floss.png)
 #### 3. 学习率曲线
-![learning_rate.png](..%2F..%2FTool1%2Flearning_rate.png)
+![learning_rate.png](output_dir%2Flearning_rate.png)
 #### 4. 混淆矩阵
-![confusion_matrix.png](..%2Fconfusion_matrix.png)
+![confusion_matrix.png](output_dir%2Fconfusion_matrix.png)
 #### 5. onnx模型结构(简化后)
-![img_1.png](img_1.png)
+![onnx.png](output_dir%2Fonnx.png)
 
 ### 代码分析
 https://blog.csdn.net/qq_38412266/article/details/139047128?spm=1001.2014.3001.5501
